@@ -1,4 +1,4 @@
-/* @mediagen - adding mg and widevine tests - - adding mg and widevine tests -
+/* @mediagen - adding mg and widevine tests -
  *
  * mpeg2au.h
  * 
