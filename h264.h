@@ -1,4 +1,4 @@
-/* @mediagen - adding mg and widevine tests -
+/* @mediagen - fixing hashes and replaces between win and nx -
  *
  * h264.h
  * 
