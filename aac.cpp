@@ -1,4 +1,4 @@
-/* @mediagen - experiment appveyor linux and win 0.14 -
+/* @mediagen - experiment appveyor linux and win 0.18 -
  *
  * aac.cpp
  * 
