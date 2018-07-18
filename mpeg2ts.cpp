@@ -1,4 +1,4 @@
-/* @mediagen - fixing hashes and replaces between win and nx -
+/* @mediagen - experiment appveyor linux and win 0.6 -
  *
  * mpeg2ts.cpp
  * 
