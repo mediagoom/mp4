@@ -1,4 +1,4 @@
-/* @mediagen - experiment appveyor linux and win 0.7 -
+/* @mediagen - experiment appveyor linux and win 0.8 -
  *
  * mpeg4_odf.cpp
  * 
