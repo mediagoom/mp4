@@ -1,4 +1,4 @@
-/* @mediagen - experiment appveyor linux and win 0.18 -
+/* @mediagen - experiment appveyor linux and win 0.19 -
  *
  * mpeg2ts.cpp
  * 
@@ -2589,11 +2589,16 @@ int Adaptation_Field::get(IBitstream &var_bs) {
         {
             adaptation_field_extension_length = var_bs.getbits(8);
             total_bits+=adaptation_field_extension_length/8;
-            var_bs.skipbits(adaptation_field_extension_length*8);
+            
+                    var_bs.skipbits(adaptation_field_extension_length * 8);
+            
         }
         
-        if ((total_bits/8)<adaptation_field_length) {
-            var_bs.skipbits((adaptation_field_length*8)-total_bits);
+        if ((total_bits/8)<adaptation_field_length)
+        {
+            
+                    var_bs.skipbits((adaptation_field_length*8) - total_bits);
+            
         }
         
     }
@@ -2659,11 +2664,18 @@ int Adaptation_Field::put(IBitstream &var_bs) {
         {
             var_bs.putbits(adaptation_field_extension_length, 8);
             total_bits+=adaptation_field_extension_length/8;
-            var_bs.skipbits(adaptation_field_extension_length*8);
+            
+               for(unsigned int dx = 0; dx < adaptation_field_extension_length; dx++)
+                    var_bs.putbits(0x0, 8);
+            
         }
         
-        if ((total_bits/8)<adaptation_field_length) {
-            var_bs.skipbits((adaptation_field_length*8)-total_bits);
+        if ((total_bits/8)<adaptation_field_length)
+        {
+            
+               for(unsigned int dx = 0; dx < (adaptation_field_length - (total_bits/8)); dx++)
+                    var_bs.putbits(0x0, 8);
+            
         }
         
     }
@@ -2674,14 +2686,19 @@ int Adaptation_Field::put(IBitstream &var_bs) {
 int Pointer_Field::get(IBitstream &var_bs) {
     int var_ret = 0;
     pointer_field = var_bs.getbits(8);
-    var_bs.skipbits(pointer_field/8);
+    
+       var_bs.skipbits(pointer_field * 8);
+    
     return var_ret;
 }
 
 int Pointer_Field::put(IBitstream &var_bs) {
     int var_ret = 0;
     var_bs.putbits(pointer_field, 8);
-    var_bs.skipbits(pointer_field/8);
+    
+       for(unsigned int dx = 0; dx < pointer_field; dx++)
+            var_bs.putbits(0x0, 8);
+    
     return var_ret;
 }
 

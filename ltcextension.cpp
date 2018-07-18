@@ -1,4 +1,4 @@
-/* @mediagen - experiment appveyor linux and win 0.18 -
+/* @mediagen - experiment appveyor linux and win 0.19 -
  *
  * ltcextension.cpp
  * 
