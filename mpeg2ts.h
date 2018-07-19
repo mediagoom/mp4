@@ -1,4 +1,4 @@
-/* @mediagen - experiment appveyor linux and win 0.19 -
+/* @mediagen - experiment appveyor linux and win 0.22 -
  *
  * mpeg2ts.h
  * 
@@ -193,7 +193,7 @@ public:
 class BaseProgramDescriptor {
 public:
     unsigned int tag;
-    int var_lengthof;
+    uint64_t var_lengthof;
     unsigned int length;
     public: virtual int get(IBitstream &var_bs, int var_id_parsed = 0);
     public: virtual int put(IBitstream &var_bs, int var_id_parsed = 0);
@@ -395,7 +395,7 @@ public:
 class BaseStreamDescriptor {
 public:
     unsigned int type;
-    int var_lengthof;
+    uint64_t var_lengthof;
     unsigned int elementary_stream_id;
     unsigned int elementary_stream_info_length;
     unsigned int parsedBytes;
