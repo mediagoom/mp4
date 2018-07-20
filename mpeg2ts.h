@@ -1,4 +1,4 @@
-/* @mediagen - experiment appveyor linux and win 0.24 -
+/* @mediagen - add m4f parse test and use uint64_t in fl -
  *
  * mpeg2ts.h
  * 
@@ -386,7 +386,7 @@ public:
 
     unsigned int elementary_stream_id;
     unsigned int elementary_stream_info_length;
-    unsigned int parsedBytes;
+    uint64_t parsedBytes;
     base_program_descriptor *descriptor;
     public: virtual int get(IBitstream &var_bs);
     public: virtual int put(IBitstream &var_bs);
@@ -398,7 +398,7 @@ public:
     uint64_t var_lengthof;
     unsigned int elementary_stream_id;
     unsigned int elementary_stream_info_length;
-    unsigned int parsedBytes;
+    uint64_t parsedBytes;
     BaseProgramDescriptor *descriptor;
     public: virtual int get(IBitstream &var_bs, int var_id_parsed = 0);
     public: virtual int put(IBitstream &var_bs, int var_id_parsed = 0);
@@ -528,10 +528,10 @@ public:
     unsigned int program_stream_map_version;
     unsigned int marker;
     unsigned int program_stream_info_length;
-    unsigned int parsed;
+    uint64_t parsed;
     BaseProgramDescriptor *program_descriptor;
     unsigned int elementary_stream_map_length;
-    unsigned int stream_map_ct;
+    uint64_t stream_map_ct;
     BaseStreamDescriptor *stream_descriptor;
     unsigned int CRC_32;
     

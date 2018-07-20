@@ -1,4 +1,4 @@
-/* @mediagen - experiment appveyor linux and win 0.24 -
+/* @mediagen - add m4f parse test and use uint64_t in fl -
  *
  * h264.h
  * 
@@ -199,7 +199,7 @@ public:
     int pic_init_qs_minus26;
     int chroma_qp_index_offset;
     int second_chroma_qp_index_offset;
-    unsigned int start_size;
+    uint64_t start_size;
     unsigned int entropy_coding_mode_flag;
     unsigned int pic_order_present_flag;
     unsigned int slice_group_change_direction_flag;
@@ -208,7 +208,7 @@ public:
     unsigned int deblocking_filter_control_present_flag;
     unsigned int constrained_intra_pred_flag;
     unsigned int redundant_pic_cnt_present_flag;
-    unsigned int end_size;
+    uint64_t end_size;
     unsigned int extended;
     unsigned int transform_8x8_mode_flag;
     unsigned int pic_scaling_matrix_present_flag;
