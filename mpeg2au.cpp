@@ -1,4 +1,4 @@
-/* @mediagen - experiment appveyor linux and win 0.27 -
+/* @mediagen - experiment appveyor linux and win 0.28 -
  *
  * mpeg2au.cpp
  * 
