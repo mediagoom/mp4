@@ -1,4 +1,4 @@
-/* @mediagen - fix read ts test -
+/* @mediagen - experiment appveyor linux and win 0.25 -
  *
  * mp4i_ext.cpp
  * 
