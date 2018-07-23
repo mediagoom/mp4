@@ -1,4 +1,4 @@
-/* @mediagen - add m4f parse test and use uint64_t in fl -
+/* @mediagen - fix read ts test -
  *
  * ltcextension.h
  * 
