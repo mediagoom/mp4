@@ -1,4 +1,4 @@
-/* @mediagen - output in case of error -
+/* @mediagen - adding mp4 autotest -
  *
  * aac.cpp
  * 
