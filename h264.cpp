@@ -1,4 +1,4 @@
-/* @mediagen - adding test for moof. tbv -
+/* @mediagen - test handling dash schema modification tobe. -
  *
  * h264.cpp
  * 
