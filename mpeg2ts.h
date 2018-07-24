@@ -1,4 +1,4 @@
-/* @mediagen - test handling dash schema modification tobe. -
+/* @mediagen - output in case of error -
  *
  * mpeg2ts.h
  * 
