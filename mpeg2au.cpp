@@ -1,4 +1,4 @@
-/* @mediagen - adding mp4 autotest -
+/* @mediagen - adding stddef.h reference for using size_t -
  *
  * mpeg2au.cpp
  * 
