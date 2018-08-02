@@ -1,4 +1,4 @@
-/* @mediagen - yet yet more DBGC nx fix -
+/* @mediagen - Change defaults on Dockerfile -
  *
  * mpeg2ts.h
  * 
