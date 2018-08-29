@@ -1,4 +1,4 @@
-/* @mediagen - suspend widevine tests. widevine is wip. -
+/* @mediagen - working on multibitrate test -
  *
  * mpeg2au.h
  * 
