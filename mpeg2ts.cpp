@@ -1,4 +1,4 @@
-/* @mediagen - changing test output path -
+/* @mediagen - appveyour message test -
  *
  * mpeg2ts.cpp
  * 
