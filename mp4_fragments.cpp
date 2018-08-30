@@ -1,4 +1,4 @@
-/* @mediagen - working on multibitrate test -
+/* @mediagen - changing test output path -
  *
  * mp4_fragments.cpp
  * 
