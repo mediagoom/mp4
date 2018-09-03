@@ -1,4 +1,4 @@
-/* @mediagen - fix test_dash error -
+/* @mediagen - add test_multiple_bitrate test -
  *
  * mpeg4_odf.h
  * 
