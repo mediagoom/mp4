@@ -1,4 +1,4 @@
-/* @mediagen - add test_multiple_bitrate test -
+/* @mediagen - WIP. Test multibirate -
  *
  * ltcextension.cpp
  * 
