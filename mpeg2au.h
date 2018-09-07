@@ -1,4 +1,4 @@
-/* @mediagen - fix appveyor api url missing slash -
+/* @mediagen - Re-enable win builds -
  *
  * mpeg2au.h
  * 
