@@ -1,4 +1,4 @@
-/* @mediagen - catch api call error -
+/* @mediagen - fix appveyor api url missing slash -
  *
  * mp4i_ext.h
  * 
