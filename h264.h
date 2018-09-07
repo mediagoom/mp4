@@ -1,4 +1,4 @@
-/* @mediagen - remove  test_multiple_bitrate.py from make test -
+/* @mediagen - catch api call error -
  *
  * h264.h
  * 
