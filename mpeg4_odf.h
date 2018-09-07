@@ -1,4 +1,4 @@
-/* @mediagen - WIP. Test multibirate -
+/* @mediagen - remove  test_multiple_bitrate.py from make test -
  *
  * mpeg4_odf.h
  * 
