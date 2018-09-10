@@ -1,4 +1,4 @@
-/* @mediagen - Update Readme -
+/* @mediagen - update readme -
  *
  * mp4_fragments.cpp
  * 
