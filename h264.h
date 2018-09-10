@@ -1,4 +1,4 @@
-/* @mediagen - add test_mg and test_multiple_bitrate to travis -
+/* @mediagen - tune build -
  *
  * h264.h
  * 
