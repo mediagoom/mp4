@@ -1,4 +1,4 @@
-/* @mediagen - tune build -
+/* @mediagen - improuve async test -
  *
  * aac.h
  * 

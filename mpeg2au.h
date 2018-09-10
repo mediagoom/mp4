@@ -1,4 +1,4 @@
-/* @mediagen - tune build -
+/* @mediagen - improuve async test -
  *
  * mpeg2au.h
  * 
