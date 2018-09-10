@@ -1,4 +1,4 @@
-/* @mediagen - Re-enable win builds -
+/* @mediagen - add test_mg and test_multiple_bitrate to travis -
  *
  * mp4i_ext.h
  * 
