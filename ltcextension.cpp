@@ -1,4 +1,4 @@
-/* @mediagen - improuve async test -
+/* @mediagen - Update Readme -
  *
  * ltcextension.cpp
  * 
