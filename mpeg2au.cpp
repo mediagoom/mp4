@@ -1,4 +1,4 @@
-/* @mediagen - Update README.md -
+/* @mediagen - Fix Syntax error: Unterminated quoted string -
  *
  * mpeg2au.cpp
  * 
