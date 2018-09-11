@@ -1,4 +1,4 @@
-/* @mediagen - update readme -
+/* @mediagen - Update README.md -
  *
  * mpeg2ts.h
  * 
