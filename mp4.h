@@ -1,4 +1,4 @@
-/* @mediagen - add docs -
+/* @mediagen - Set theme jekyll-theme-cayman -
  *
  * mp4.h
  * 
