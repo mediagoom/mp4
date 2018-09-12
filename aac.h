@@ -1,4 +1,4 @@
-/* @mediagen - Fix Syntax error: Unterminated quoted string -
+/* @mediagen - add docs -
  *
  * aac.h
  * 
