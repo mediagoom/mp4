@@ -1,4 +1,4 @@
-/* @mediagen - Set theme jekyll-theme-cayman -
+/* @mediagen - Set theme jekyll-theme-minimal -
  *
  * mpeg2au.cpp
  * 
