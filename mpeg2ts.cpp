@@ -1,4 +1,4 @@
-/* @mediagen - Set theme jekyll-theme-minimal -
+/* @mediagen - tune build -
  *
  * mpeg2ts.cpp
  * 

@@ -1,4 +1,4 @@
-/* @mediagen - Set theme jekyll-theme-minimal -
+/* @mediagen - tune build -
  *
  * mp4i_ext.cpp
  * 
